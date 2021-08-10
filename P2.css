@@ -4,6 +4,49 @@ body{
     font-family: Raleway; 
     max-width: 1500px;
     margin: auto;
+} 
+.flexCentre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.flexAround{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+.flexBetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.decorationNone{
+    text-decoration: none;
+}
+.colorBleu{
+    color:#0065fc;  
+}
+.texteGras{
+    font-weight: bold;  
+} 
+/*nav*/
+.sizeNav{
+    height: 100px;
+}
+.sizeLiens{
+    width: 45%;
+}
+.sizeLien{
+    width: 140px ;
+    height: 99px;
+}
+.colorLien2{
+    color: black;
+}
+.bordureNav{
+    border-top: 1px solid transparent;
+}
+.marglogo{
+    margin-bottom: 7px;
+}
 
