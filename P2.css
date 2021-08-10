@@ -387,3 +387,22 @@ body{
     height: 200px;
     border-radius: 15px 15px 0 0;
 }
+/*footer*/
+.footer{
+    height: 300px; 
+    margin-top: 100px;
+}
+.tailleBlocFooter{
+    height: 150px;
+}
+.margeBlocFooter1{
+    margin-left:  5%; 
+}
+.margeBlocFooter3{
+    margin-right:  15%; 
+}
+.lienFooter{
+    color: black; }
+.divLienFooter{
+    height: 30px;
+}
