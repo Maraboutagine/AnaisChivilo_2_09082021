@@ -62,7 +62,10 @@ body{
     height: 100px;
 }
 .sizeLiens{
-    width: 45%;
+    width: 100%;
+}
+.sizeLien12{
+   margin-left : 60%;
 }
 .sizeLien{
     width: 140px ;
@@ -405,4 +408,110 @@ body{
     color: black; }
 .divLienFooter{
     height: 30px;
+}
+/*responsive*/
+@media screen and (max-width: 1295px) {
+   .sizeLien12 {
+    margin-left: 35%;
+ }
+   .cubeDetailsHebergements{
+       min-height: 150px; 
+   }
+   .sizeHebergements{
+       min-height: auto;
+       padding: 20px;
+   }
+   .sizePopulaires{
+       min-height: auto;
+       padding: 20px;
+   }
+   .tabletteSizeTitrePop{
+       margin-top: 0;
+   }
+}
+@media screen and (max-width: 990px) { 
+    .mobileFiltreWrap {
+       flex-direction: column;
+       align-items: flex-start;
+    }
+    .filtreTexteIcons{
+       margin-bottom: 20px ; 
+    }
+    #hebergements{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .blocPopulaires{
+        flex: none;
+        width: 90%;
+        margin-left: 0;
+        padding: 5%;
+    }
+    .blocHebergements{
+        flex: none;
+        width: 90%;
+        margin-right: 0;
+        margin-top: 50px ;
+        padding: 5%;
+    }
+}
+@media screen and (max-width:770px) {
+    .sizeLiens{
+        width: 90%;
+    }
+    .sizeLien12{
+        margin-left: 20%;
+    }
+    .blocHebergements{
+        height: auto;
+    }   
+    .bloc1{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .bloc2{
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .cubeHebergements{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .cubeDetailsHebergements{
+        min-height: auto;
+    }
+    .blocActivités{
+        flex-direction: column;
+        height: auto;
+    }
+    .cubeActivités{
+        width: 100%;
+        margin-bottom: 50px;
+
+    }
+    .blocActivités2356{
+        width: 100%;
+        height: auto;
+    }
+    .cubeActivités2356{
+        margin-bottom: 50px;
+    }
+    .imgActivités1, 
+    .imgActivités2,
+    .imgActivités3,
+    .imgActivités4,
+    .imgActivités5,
+    .imgActivités6{
+        height: 200px;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding-left: 20px;
+    }
+    .margeBlocFooter1{
+        margin-left: 0;
+
+    }
 }
