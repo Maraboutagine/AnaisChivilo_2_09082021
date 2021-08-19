@@ -461,6 +461,10 @@ main{
         margin-top: 50px ;
         padding: 5%;
     }
+    .tabletteRomantique{
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
 }
 @media screen and (max-width:770px) {
     main{
@@ -519,7 +523,24 @@ main{
     }
     .margeBlocFooter1{
         margin-left: 0;
-
+    }
+    .margFiltreTitre{
+        padding-left: 27px;
+    }
+    .divEconomiqueFamilial{
+        padding-left: 20px ;
+    }
+    .divRomantiqueAnimaux{
+        padding-left: 20px;
+    }
+    .tabletteTitre{
+        padding-left: 20px;
+    }
+    .tabletteSearch{
+        padding-left: 20px;
+    }
+    .tabletteInfo{
+        padding-left: 20px;
     }
 }
 @media screen and (max-width:600px) {
@@ -569,6 +590,24 @@ main{
     }
     .mobileNone{
         display: none;
+    }
+    .margFiltreTitre{
+        padding-left: 0px;
+    }
+    .divEconomiqueFamilial{
+        padding-left: 0px;
+    }
+    .divRomantiqueAnimaux{
+        padding-left: 0px;
+    }
+    .tabletteTitre{
+        padding-left: 0px;
+    }
+    .tabletteSearch{
+        padding-left: 0px;
+    }
+    .tabletteInfo{
+        padding-left: 0px;
     }
     .margFiltre{
         padding-left: 5%;
