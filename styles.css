@@ -465,6 +465,7 @@ main{
         align-items: flex-start;
         justify-content: flex-end;
     }
+
 }
 @media screen and (max-width:770px) {
     main{
@@ -541,6 +542,14 @@ main{
     }
     .tabletteInfo{
         padding-left: 20px;
+    }
+    .bordureSearch{
+        width: 370px;
+        border: none;
+    }
+    .recherche{
+        width: 200px;
+        border: 1px solid #f2f2f2;
     }
 }
 @media screen and (max-width:600px) {
